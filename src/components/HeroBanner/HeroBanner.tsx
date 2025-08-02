@@ -1,4 +1,4 @@
-import React from "react";
+
 import heroImage from "../../assets/images/hero-banner.png";
 
 function HeroBanner() {

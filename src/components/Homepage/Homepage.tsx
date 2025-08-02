@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { motion } from "framer-motion";
 import Navbar from "../Navbar/Navbar";
 import HeroBanner from "../HeroBanner/HeroBanner";
@@ -6,7 +6,7 @@ import FishInfoGrid from "../FishInfoGrid/FishInfoGrid";
 import About from "../About/About";
 
 function Homepage() {
-  const aboutRef = useRef<HTMLDivElement>(null);
+  const aboutRef = useRef<HTMLDivElement>(null!);
   return (
     <div>
       <div className="bg-black min-h-screen">

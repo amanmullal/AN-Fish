@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import type { CartProps } from "./types";
 import { mockCart as initialCart } from "../../mocks/mockCart";

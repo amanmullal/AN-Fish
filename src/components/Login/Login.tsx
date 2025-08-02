@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Eye, EyeOff, User, Shield, X } from "lucide-react";
 import logo from "../../assets/images/An-fish.png";
 import type { LoginProps } from "./types";

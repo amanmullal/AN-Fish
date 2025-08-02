@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import logo from "../../assets/images/An-fish.png";
 import Cart from "../Cart/Cart";
 import { Menu, X } from "lucide-react";

@@ -1,17 +1,17 @@
-import React from "react";
+
 import { motion } from "framer-motion";
 import { mockFishData } from "../../mocks/mockFishData";
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-interface Fish {
-  image: string;
-  name: string;
-  description: string;
-  species: string;
-  benefits: string[];
-  vitamins: string[];
-  price: number;
-}
+// interface Fish {
+//   image: string;
+//   name: string;
+//   description: string;
+//   species: string;
+//   benefits: string[];
+//   vitamins: string[];
+//   price: number;
+// }
 
 const FishInfo = () => {
   return (
