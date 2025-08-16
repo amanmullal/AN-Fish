@@ -4,10 +4,6 @@ import logo from "../../assets/images/An-fish.png";
 import { MapPin, Phone, Mail, Facebook, Instagram, Twitter } from "lucide-react";
 import Map from "../Map/Map";
 
-// interface AboutProps {
-//   aboutRef: React.RefObject<HTMLHeadingElement>;
-// }
-
 const Footer = () => {
   return (
     <>
