@@ -1,15 +1,15 @@
-import React from "react";
-import { motion } from "framer-motion";
-import logo from "../../assets/images/An-fish.png";
+import logo from "../../assets/images/anFish_white-removebg-preview.png";
 import { MapPin, Phone, Mail, Facebook, Instagram, Twitter } from "lucide-react";
 import Map from "../Map/Map";
+import footer_Wave from "../../assets/images/footer-wave.png"
 
 let tabs = ["Home", "About Us", "Our Products", "Gallery", "Contact"];
 
 const Footer = () => {
   return (
     <>
-      <footer className="bg-gray-800 p-5 pb-10 py-8 pt-20 ">
+      <img src={footer_Wave} alt="footer_Wave" className="w-full" />
+      <footer className="bg-[#111827] p-5 pb-10 pt-10 ">
         <div className="flex flex-col md:flex-row font-Mainlux gap-10">
           <div className="flex flex-col md:flex-row  gap-10 md:gap-20 w-full md:w-3/5">
             <div className="flex flex-col gap-3 ">
@@ -70,7 +70,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <div className="border-t border-white-800 p-3 text-white-300 text-center bg-gray-800">
+      <div className="border-t border-white-800 p-3 text-white-300 text-center bg-[#111827]">
         <p>© 2025 AN Fish World. All Rights Reserved.</p>
       </div>
     </>

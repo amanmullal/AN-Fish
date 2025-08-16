@@ -81,7 +81,7 @@ function Navbar({ aboutRef }: { aboutRef: RefObject<HTMLDivElement> }) {
           </div>
 
           {/* Hamburger Icon - Mobile Only */}
-          <div className="md:hidden flex items-center space-x-4 text-black">
+          <div className="md:hidden flex items-center space-x-4 font-Mainlux text-lg text-black">
             <div onClick={toggleLogin} className="cursor-pointer">
               Login
             </div>
