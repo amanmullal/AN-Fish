@@ -4,6 +4,8 @@ import logo from "../../assets/images/An-fish.png";
 import { MapPin, Phone, Mail, Facebook, Instagram, Twitter } from "lucide-react";
 import Map from "../Map/Map";
 
+let tabs = ["Home", "About Us", "Our Products", "Gallery", "Contact"];
+
 const Footer = () => {
   return (
     <>
@@ -34,31 +36,17 @@ const Footer = () => {
             <div className="flex flex-col gap-5 w-full">
               <h2 className="text-lg font-bold ">Quck Links</h2>
               <ul className="flex flex-col gap-1">
-                <li>
-                  <a href="" className="hover:underline text-white-300">
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a href="" className="hover:underline text-white-300">
-                    About Us
-                  </a>
-                </li>
-                <li>
-                  <a href="" className="hover:underline text-white-300">
-                    Our Products
-                  </a>
-                </li>
-                <li>
-                  <a href="" className="hover:underline text-white-300">
-                    Gallery
-                  </a>
-                </li>
-                <li>
-                  <a href="" className="hover:underline text-white-300">
-                    Contact
-                  </a>
-                </li>
+                {tabs.map((item) => {
+                  return (
+                    <>
+                      <li>
+                        <a href="" className="hover:underline text-white-300">
+                          {item}
+                        </a>
+                      </li>
+                    </>
+                  );
+                })}
               </ul>
               <div className="flex text-sm text-white-700 gap-2">
                 <a href="">
