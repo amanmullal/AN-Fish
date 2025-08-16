@@ -7,7 +7,6 @@ import markerIcon2x from "leaflet/dist/images/marker-icon-2x.png"
 import markerShadow from "leaflet/dist/images/marker-shadow.png"
 import type { style } from "framer-motion/client";
 import { color } from "framer-motion";
-// import { Icon, RedoIcon } from "lucide-react";
 import {Icon} from "leaflet";
 
 
