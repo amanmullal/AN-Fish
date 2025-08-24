@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Building, Award, Globe2 } from "lucide-react";
+import { Building, Award, Globe2} from "lucide-react";
 
 interface AboutProps {
   aboutRef: React.RefObject<HTMLHeadingElement>;
